@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FakeStoreAPITestSuite" parallel="classes" thread-count="3">
+    <test name="API Tests">
+        <classes>
+            <class name="qa.fakestore.tests.ProductAPITests"/>
+            <class name="qa.fakestore.tests.AuthenticationTests"/>
+            <class name="qa.fakestore.tests.CartTests"/>
+        </classes>
+    </test>
+</suite>

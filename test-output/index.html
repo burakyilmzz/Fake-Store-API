@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FakeStoreAPITestSuite" class="navigator-link">
+              <span class="suite-name border-failed">FakeStoreAPITestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span>C:\Users\burak\IdeaProjects\Fake-Store-Api\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FakeStoreAPITestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 6 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FakeStoreAPITestSuite" class="hide-methods failed suite-FakeStoreAPITestSuite"> (hide)</a> <!-- hide-methods failed suite-FakeStoreAPITestSuite -->
+                      <a href="#" panel-name="suite-FakeStoreAPITestSuite" class="show-methods failed suite-FakeStoreAPITestSuite"> (show)</a> <!-- show-methods failed suite-FakeStoreAPITestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-FakeStoreAPITestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.CartTests" class="method navigator-link" hash-for-method="testAddNewCart">testAddNewCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testAddNewProduct">testAddNewProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testEmptyCredentials">testEmptyCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetNonExistentProduct">testGetNonExistentProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testInvalidLogin">testInvalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.AuthenticationTests" class="method navigator-link" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FakeStoreAPITestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FakeStoreAPITestSuite" class="hide-methods passed suite-FakeStoreAPITestSuite"> (hide)</a> <!-- hide-methods passed suite-FakeStoreAPITestSuite -->
+                      <a href="#" panel-name="suite-FakeStoreAPITestSuite" class="show-methods passed suite-FakeStoreAPITestSuite"> (show)</a> <!-- show-methods passed suite-FakeStoreAPITestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FakeStoreAPITestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testAPIPerformance">testAPIPerformance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testDeleteProduct">testDeleteProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.CartTests" class="method navigator-link" hash-for-method="testGetAllCarts">testGetAllCarts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetAllProducts">testGetAllProducts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetCategories">testGetCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetProductsByCategory(women&#039;s clothing)">testGetProductsByCategory(women's clothing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetProductsByCategory(jewelery)">testGetProductsByCategory(jewelery)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetProductsByCategory(electronics)">testGetProductsByCategory(electronics)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetProductsByCategory(men&#039;s clothing)">testGetProductsByCategory(men's clothing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testGetSingleProduct">testGetSingleProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testProductDataIntegrity">testProductDataIntegrity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FakeStoreAPITestSuite" title="qa.fakestore.tests.ProductAPITests" class="method navigator-link" hash-for-method="testUpdateProduct">testUpdateProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FakeStoreAPITestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FakeStoreAPITestSuite" class="panel FakeStoreAPITestSuite">
+          <div class="suite-FakeStoreAPITestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qa.fakestore.tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNewCart">
+                  </a> <!-- testAddNewCart -->
+                  <span class="method-name">testAddNewCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$4.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$6.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at qa.fakestore.base.BaseTest.validateSuccessResponse(BaseTest.java:42)
+	at qa.fakestore.tests.CartTests.testAddNewCart(CartTests.java:63)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FakeStoreAPITestSuite-class-failed -->
+          <div class="suite-FakeStoreAPITestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qa.fakestore.tests.AuthenticationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEmptyCredentials">
+                  </a> <!-- testEmptyCredentials -->
+                  <span class="method-name">testEmptyCredentials</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status code should be 200 expected [200] but found [400]
+	at qa.fakestore.tests.AuthenticationTests.testEmptyCredentials(AuthenticationTests.java:96)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidLogin">
+                  </a> <!-- testInvalidLogin -->
+                  <span class="method-name">testInvalidLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status code should be 200 expected [200] but found [401]
+	at qa.fakestore.tests.AuthenticationTests.testInvalidLogin(AuthenticationTests.java:65)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Status code should be 200 expected [200] but found [201]
+	at qa.fakestore.tests.AuthenticationTests.testValidLogin(AuthenticationTests.java:29)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FakeStoreAPITestSuite-class-failed -->
+          <div class="suite-FakeStoreAPITestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">qa.fakestore.tests.ProductAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddNewProduct">
+                  </a> <!-- testAddNewProduct -->
+                  <span class="method-name">testAddNewProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$4.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$6.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at qa.fakestore.base.BaseTest.validateSuccessResponse(BaseTest.java:42)
+	at qa.fakestore.tests.ProductAPITests.testAddNewProduct(ProductAPITests.java:126)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetNonExistentProduct">
+                  </a> <!-- testGetNonExistentProduct -->
+                  <span class="method-name">testGetNonExistentProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response should be null for non-existent product expected [null] but found []
+	at qa.fakestore.tests.ProductAPITests.testGetNonExistentProduct(ProductAPITests.java:193)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FakeStoreAPITestSuite-class-failed -->
+          <div class="suite-FakeStoreAPITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa.fakestore.tests.CartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllCarts">
+                  </a> <!-- testGetAllCarts -->
+                  <span class="method-name">testGetAllCarts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FakeStoreAPITestSuite-class-passed -->
+          <div class="suite-FakeStoreAPITestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa.fakestore.tests.ProductAPITests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAPIPerformance">
+                  </a> <!-- testAPIPerformance -->
+                  <span class="method-name">testAPIPerformance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProduct">
+                  </a> <!-- testDeleteProduct -->
+                  <span class="method-name">testDeleteProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAllProducts">
+                  </a> <!-- testGetAllProducts -->
+                  <span class="method-name">testGetAllProducts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetCategories">
+                  </a> <!-- testGetCategories -->
+                  <span class="method-name">testGetCategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetProductsByCategory(women&#039;s clothing)">
+                  </a> <!-- testGetProductsByCategory(women's clothing) -->
+                  <span class="method-name">testGetProductsByCategory</span>
+                  <span class="parameters">(women's clothing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetProductsByCategory(jewelery)">
+                  </a> <!-- testGetProductsByCategory(jewelery) -->
+                  <span class="method-name">testGetProductsByCategory</span>
+                  <span class="parameters">(jewelery)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetProductsByCategory(electronics)">
+                  </a> <!-- testGetProductsByCategory(electronics) -->
+                  <span class="method-name">testGetProductsByCategory</span>
+                  <span class="parameters">(electronics)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetProductsByCategory(men&#039;s clothing)">
+                  </a> <!-- testGetProductsByCategory(men's clothing) -->
+                  <span class="method-name">testGetProductsByCategory</span>
+                  <span class="parameters">(men's clothing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetSingleProduct">
+                  </a> <!-- testGetSingleProduct -->
+                  <span class="method-name">testGetSingleProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductDataIntegrity">
+                  </a> <!-- testProductDataIntegrity -->
+                  <span class="method-name">testProductDataIntegrity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateProduct">
+                  </a> <!-- testUpdateProduct -->
+                  <span class="method-name">testUpdateProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FakeStoreAPITestSuite-class-passed -->
+        </div> <!-- panel FakeStoreAPITestSuite -->
+        <div panel-name="test-xml-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\burak\IdeaProjects\Fake-Store-Api\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;FakeStoreAPITestSuite&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;API Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;qa.fakestore.tests.ProductAPITests&quot;/&gt;
+      &lt;class name=&quot;qa.fakestore.tests.AuthenticationTests&quot;/&gt;
+      &lt;class name=&quot;qa.fakestore.tests.CartTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+&lt;/suite&gt; &lt;!-- FakeStoreAPITestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FakeStoreAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FakeStoreAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FakeStoreAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FakeStoreAPITestSuite');
+function tableData_FakeStoreAPITestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetAllProducts')
+data.setCell(0, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(0, 3, 2166);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidLogin')
+data.setCell(1, 2, 'qa.fakestore.tests.AuthenticationTests')
+data.setCell(1, 3, 1757);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGetAllCarts')
+data.setCell(2, 2, 'qa.fakestore.tests.CartTests')
+data.setCell(2, 3, 1745);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAPIPerformance')
+data.setCell(3, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(3, 3, 1061);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testInvalidLogin')
+data.setCell(4, 2, 'qa.fakestore.tests.AuthenticationTests')
+data.setCell(4, 3, 634);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testGetProductsByCategory')
+data.setCell(5, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(5, 3, 392);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testGetProductsByCategory')
+data.setCell(6, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(6, 3, 390);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAddNewCart')
+data.setCell(7, 2, 'qa.fakestore.tests.CartTests')
+data.setCell(7, 3, 349);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDeleteProduct')
+data.setCell(8, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(8, 3, 329);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetProductsByCategory')
+data.setCell(9, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(9, 3, 323);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetProductsByCategory')
+data.setCell(10, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(10, 3, 320);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetCategories')
+data.setCell(11, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(11, 3, 306);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testAddNewProduct')
+data.setCell(12, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(12, 3, 302);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testGetSingleProduct')
+data.setCell(13, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(13, 3, 229);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testProductDataIntegrity')
+data.setCell(14, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(14, 3, 228);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testUpdateProduct')
+data.setCell(15, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(15, 3, 227);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testEmptyCredentials')
+data.setCell(16, 2, 'qa.fakestore.tests.AuthenticationTests')
+data.setCell(16, 3, 227);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testGetNonExistentProduct')
+data.setCell(17, 2, 'qa.fakestore.tests.ProductAPITests')
+data.setCell(17, 3, 224);
+window.suiteTableData['FakeStoreAPITestSuite']= { tableData: data, tableDiv: 'times-div-FakeStoreAPITestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <div id="times-div-FakeStoreAPITestSuite">
+              </div> <!-- times-div-FakeStoreAPITestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FakeStoreAPITestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FakeStoreAPITestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.ProductAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.ProductAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">600 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">600 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">600 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.ProductAPITests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetAllProducts</span>
+                <span class="method-start">891 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">891 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetAllCarts</span>
+                <span class="method-start">891 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">2660 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">2660 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testInvalidLogin</span>
+                <span class="method-start">2665 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.CartTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddNewCart</span>
+                <span class="method-start">2665 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.ProductAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">3060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetSingleProduct</span>
+                <span class="method-start">3063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">3298 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">3304 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.ProductAPITests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetCategories</span>
+                <span class="method-start">3305 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.AuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testEmptyCredentials</span>
+                <span class="method-start">3315 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">qa.fakestore.tests.ProductAPITests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">3617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetProductsByCategory(electronics)</span>
+                <span class="method-start">3620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">4017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetProductsByCategory(jewelery)</span>
+                <span class="method-start">4021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">4347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetProductsByCategory(men's clothing)</span>
+                <span class="method-start">4350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">4673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetProductsByCategory(women's clothing)</span>
+                <span class="method-start">4676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">5069 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAddNewProduct</span>
+                <span class="method-start">5072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">5379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateProduct</span>
+                <span class="method-start">5384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">5616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProduct</span>
+                <span class="method-start">5621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">5954 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testGetNonExistentProduct</span>
+                <span class="method-start">5959 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">6186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProductDataIntegrity</span>
+                <span class="method-start">6189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpRequest</span>
+                <span class="method-start">6420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAPIPerformance</span>
+                <span class="method-start">6423 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
